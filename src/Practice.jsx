@@ -32,7 +32,7 @@ const Practice=()=>{
         <div className="maindiv">
             <br />
             <h1>ToDo List</h1>
-            <input type="text" placeholder="Add an Items" onChange={itemevents} value={currstate}/>
+            <input type="text" placeholder="Add an Item" onChange={itemevents} value={currstate}/>
             <Tooltip title="Add">
                 <button onClick={listofitems}> <AddIcon /> </button>
             </Tooltip>
